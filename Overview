@@ -1,0 +1,50 @@
+# Development and Simulation of a CubeSat ADCS
+
+## Overview
+
+This project presents the development and implementation of a comprehensive Attitude Determination and Control System (ADCS) for CubeSat applications. Accurate ADCS is essential for CubeSats to maintain their desired orientation in space, enabling precise payload pointing, optimized power generation, reliable communication, and efficient orbital maneuvers.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Project Objectives](#project-objectives)
+- [System Architecture](#system-architecture)
+- [Implementation](#implementation)
+- [Results and Conclusion](#results-and-conclusion)
+- [Future Work](#future-work)
+
+
+## Introduction
+
+CubeSats, small satellites with standardized dimensions and masses, have revolutionized space exploration with their cost-effectiveness and versatility. This project focuses on the development of an ADCS to ensure CubeSats maintain their desired orientation throughout their mission lifetime.
+
+## Project Objectives
+
+- Develop a comprehensive ADCS for CubeSat applications.
+- Implement sensor fusion algorithms, attitude estimation techniques, and control laws.
+- Integrate hardware components and conduct simulation and testing.
+- Provide a robust ADCS solution to enhance small satellite capabilities and reliability for various space missions.
+
+## System Architecture
+
+The system architecture of the CubeSat's ADCS includes:
+
+- **Attitude Determination System**: Utilizes sensors like magnetometers, sun sensors, inertial measurement units (IMUs), and GPS receivers to estimate the satellite's orientation.
+- **Attitude Control System**: Employs actuators like reaction wheels and magnetorquers to generate necessary torques to maintain or adjust the CubeSat's attitude.
+
+## Implementation
+
+The software implementation of the ADCS is written in Python and consists of several modules and classes. The key components include:
+
+- **Sensor Data Handling**: Methods to update sensor data from various sources.
+- **Attitude Estimation Algorithms**: Methods for estimating the satellite's attitude using different sensor data.
+- **Sensor Fusion**: Techniques to fuse the attitude estimates from multiple sensors.
+- **Control Laws and Actuator Command Generation**: Implementation of a PID controller for attitude control.
+
+## Future Work
+
+- Improving the accuracy of attitude estimation algorithms.
+- Enhancing the robustness of control laws.
+- Integrating additional sensors and actuators for better performance.
+- Conducting hardware-in-the-loop (HIL) testing.
+
